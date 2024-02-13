@@ -10,6 +10,7 @@ body {
   padding: 5px;
   object-fit: contain;
   border-radius: 20px;
+  position: relative;
 }
 
 h2 {
@@ -37,7 +38,6 @@ h2 {
 #page2 img {
   height: 90vh;
   width: 100%;
-  opacity: 0.4;
   border-radius: 25px;
   margin: 4px;
 }
@@ -53,15 +53,24 @@ h2 {
   position: absolute;
   text-align: center;
   top: 10px;
+
   color: white;
   margin: 0 30px;
+}
+#page1 .text{
+      right: 20%;
+  left: 20%;
 }
 button {
   background-color: line;
   border-color: blueviolet;
+  height: 3em;
+  width: 8em;
   position: absolute;
   bottom: 20px;
-  left: 39%;
+  right: 30%;
+  left: 30%;
+  font-size: larger;
   background: rgb(63, 94, 251);
   background: -moz-radial-gradient(
     circle,
