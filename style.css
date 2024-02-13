@@ -1,0 +1,82 @@
+* {
+  font-family: "Sacramento", cursive;
+  font-weight: 900;
+  font-style: normal;
+}
+body {
+  background-color: pink;
+}
+.main {
+  padding: 5px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.page {
+  display: none;
+}
+.page.active {
+  display: block;
+}
+
+#firstPage {
+  height: 100%;
+  width: 100%;
+  box-shadow: 3px 2px 5px black;
+  border-radius: 20px;
+}
+#page2 img{
+  height: 90vh;
+  width: 100%;
+  opacity: 0.4;
+  border-radius: 25px;
+  margin: 4px;
+}
+#page3{
+    height: 100vh;
+}
+
+.page {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  color: white;
+  margin: 0 30px;
+}
+button {
+  background-color: line;
+  border-color: blueviolet;
+  position: absolute;
+  bottom: 20px;
+  left: 39%;
+  background: rgb(63, 94, 251);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1);
+}
