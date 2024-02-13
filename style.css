@@ -34,15 +34,15 @@ h2 {
   box-shadow: 3px 2px 5px black;
   border-radius: 20px;
 }
-#page2 img{
+#page2 img {
   height: 90vh;
   width: 100%;
   opacity: 0.4;
   border-radius: 25px;
   margin: 4px;
 }
-#page3{
-    height: 100vh;
+#page3 {
+  height: 100vh;
 }
 
 .page {
